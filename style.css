@@ -1,0 +1,24 @@
+body{
+  background-color: #F8E2CF;
+}
+
+h1{
+  text-align: center;
+  color: #262A53;
+}
+
+.appName{
+  padding: 2rem 7rem;
+}
+
+.formDiv{
+  padding: 7rem 7rem;
+}
+
+.btn{
+  margin-top: 2rem;
+}
+
+.formBox{
+  width: 250px;
+}

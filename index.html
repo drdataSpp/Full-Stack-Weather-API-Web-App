@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css">
+  </head>
+
+  <style>
+
+    body{
+      background-color: #F8E2CF;
+    }
+
+    h1{
+      text-align: center;
+      color: #262A53;
+    }
+
+    .appName{
+      padding: 2rem 7rem;
+    }
+
+    .formDiv{
+      padding: 7rem 7rem;
+    }
+
+    .btn{
+      margin-top: 2rem;
+    }
+
+    .formBox{
+      width: 250px;
+    }
+
+  </style>
+
+  <body>
+
+    <div class="appName">
+      <h1>Full Stack Weather App - Open Weather Map API</h1>
+    </div>
+
+    <div class="formDiv">
+      <form method="post">
+        <div class="form-group">
+          <center><input class="form-control formBox" type="text" name="nameOfCity" placeholder="Enter the City Name"></center>
+        </div>
+          <center><button type="submit" class="btn btn-primary">Check Weather</button></center>
+      </form>
+    </div>
+  </body>
+</html>
